@@ -1,0 +1,25 @@
+.form {
+  padding-bottom: 20px;
+  font-weight: 500;
+
+  input {
+    display: block;
+    margin: 10px auto;
+    width: 240px;
+  }
+
+  :global(.button) {
+    display: block;
+    margin: 8px auto;
+    text-align: left;
+    min-width: 16em;
+    line-height: 24px;
+
+    img {
+      height: 24px;
+      vertical-align: top;
+      margin-right: 7px;
+      border-radius: 2px;
+    }
+  }
+}

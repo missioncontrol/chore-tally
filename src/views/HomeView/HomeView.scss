@@ -1,0 +1,35 @@
+.home {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.home header {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 48px;
+
+  img {
+    margin-right: 15px;
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+  }
+
+  label {
+    vertical-align: top;
+  }
+
+  strong {
+    margin-right: 12px;
+    font-family: 'Helvetica Neue';
+    font-size: 16px;
+    color: #333;
+
+    img {
+      margin: 0 4px;
+      width: 12px;
+      height: 12px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 1px solid #cbcbcb;
+  font-weight: 500;
+
+  td, th {
+    width: 50%;
+    border-left: 1px solid #cbcbcb;
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: .5em 1em;
+  }
+
+  td:last-of-type {
+    text-align: center;
+    font-weight: 600;
+  }
+}
+
+.empty {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #999;
+}
