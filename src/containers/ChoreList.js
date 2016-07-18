@@ -64,7 +64,8 @@ export default class ChoreListContainer extends React.Component {
 
     this.listRef.push(item)
     !opts.chore && this.setState({
-      draftText: ''
+      draftText: '',
+      items: this._items
     })
   }
 

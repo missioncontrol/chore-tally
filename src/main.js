@@ -7,6 +7,7 @@ import makeRoutes from './routes'
 import Root from './containers/Root'
 import configureStore from './redux/configureStore'
 import { loginUserSuccess, loginUserFailure } from 'redux/modules/auth'
+import 'react-fastclick'
 
 // Configure history for react-router
 const browserHistory = useRouterHistory(createBrowserHistory)({

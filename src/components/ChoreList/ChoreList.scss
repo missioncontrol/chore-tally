@@ -6,6 +6,10 @@
   border: 1px solid #cbcbcb;
   font-weight: 500;
 
+  tr {
+    border-bottom: 1px solid #cbcbcb;
+  }
+
   td, th {
     width: 50%;
     border-left: 1px solid #cbcbcb;
